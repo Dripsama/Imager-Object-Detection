@@ -1,0 +1,113 @@
+.upload-component {
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+  width: 50rem;
+}
+
+.button-hidden {
+  visibility: hidden;
+}
+
+.uploading {
+  padding-bottom: 2rem;
+}
+
+.uploading-final {
+  padding-bottom: 2rem;
+  position: absolute;
+  margin-top: 35rem;
+  left: 0;
+  right: 0;
+  z-index: 8;
+}
+
+.box-preview {
+  margin: auto;
+  width: 600px;
+  height: 300px;
+  object-fit: contain;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.choose {
+  color: black;
+  padding-top: 1rem;
+  padding-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 600px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.finalCanvas {
+  position: absolute;
+  margin: 10rem auto 3rem auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+  z-index: 8;
+  width: 600px;
+  height: 300px;
+  padding: 3rem 0;
+}
+
+.btn-fnc {
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin: 1rem;
+  width: 100px;
+  background-color: transparent;
+}
+
+.btn-fnc:hover {
+  background-color: white;
+  color: black;
+  box-shadow: inset 0 0 7px #fff, inset -6px 0 7px #fff, inset 6px 0 7px #fff,
+    0 0 7px #fff, 6px 0 7px #fff, -6px 0 7px #fff;
+}
+
+.uploadTxt {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 765px) {
+  .upload-component {
+    width: auto;
+    margin: 0 0.5rem;
+  }
+  .box-preview {
+    width: 17rem;
+    height: 20rem;
+  }
+  img {
+    width: 17rem;
+    height: 20rem;
+  }
+  .finalCanvas {
+    margin-top: 35rem;
+    width: 17rem;
+    height: 20rem;
+  }
+  .choose {
+    width: 15rem;
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .box-preview,
+  img,
+  .finalCanvas {
+    width: 37.5rem;
+    height: 18.75rem;
+  }
+}

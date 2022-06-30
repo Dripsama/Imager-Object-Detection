@@ -1,0 +1,35 @@
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.feature-title {
+  margin: 2rem auto auto auto;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.content {
+  margin: 0.5rem auto auto auto;
+  padding-bottom: 5rem;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  width: 20rem;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .feature-title {
+    margin: 1.5rem auto 0 auto;
+  }
+  .content {
+    margin: 0.5rem auto 0 auto;
+  }
+}

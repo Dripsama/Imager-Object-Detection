@@ -1,0 +1,8 @@
+#client dependencies
+/client/node_modules
+
+
+#server dependencies
+/server/venv
+/server/pycache
+
